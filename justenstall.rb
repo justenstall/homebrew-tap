@@ -6,7 +6,7 @@ class Justenstall < Formula
   homepage 'https://github.com/justenstall/justenstall.github.io'
   version 'v1'
 
-  url "https://github.com/justenstall/justenstall.github.io.git", using: :git
+  url "https://github.com/justenstall/justenstall.github.io.git", using: :git, branch: "main"
 
   def install
     prefix.install "README.md"
