@@ -9,7 +9,7 @@ class Justenstall < Formula
   url "https://github.com/justenstall/justenstall.github.io.git", using: :git, branch: "main"
 
   def install
-    prefix.install "README.md"
+    bin.install "README.md" => "justenstall-README.md"
   end
 
   def caveats
