@@ -8,7 +8,7 @@ class Cowsay < Formula
   revision 1
 
   bottle do
-    root_url "https://ghcr.io/v2/justenstall/homebrew-tap"
+    # root_url "https://ghcr.io/v2/justenstall/homebrew-tap"
     sha256 cellar: :any_skip_relocation, arm64_ventura:  "8d35c9dfb46eea22b2b53c9c0deb00d7d95b6fe3fcfeb8d9404fd269d5739790"
     sha256 cellar: :any_skip_relocation, arm64_monterey: "8d35c9dfb46eea22b2b53c9c0deb00d7d95b6fe3fcfeb8d9404fd269d5739790"
     sha256 cellar: :any_skip_relocation, arm64_big_sur:  "dc3cb88861e89bb415d3b1be1b5314514174349bb44338551e80badc4da94542"
