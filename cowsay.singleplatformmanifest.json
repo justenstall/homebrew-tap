@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 2,
+  "config": {
+    "mediaType": "application/vnd.oci.image.config.v1+json",
+    "digest": "sha256:d3dc7d09cd8de6a7a0cde0ef5b73f6be0200ae8b3ca7c269b89092d0c458254a",
+    "size": 222
+  },
+  "layers": [
+    {
+      "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+      "digest": "sha256:8d35c9dfb46eea22b2b53c9c0deb00d7d95b6fe3fcfeb8d9404fd269d5739790",
+      "size": 29137,
+      "annotations": {
+        "org.opencontainers.image.title": "cowsay--3.04_1.arm64_monterey.bottle.tar.gz"
+      }
+    }
+  ],
+  "annotations": {
+    "com.github.package.type": "homebrew_bottle",
+    "org.opencontainers.image.created": "2021-10-25",
+    "org.opencontainers.image.description": "Configurable talking characters in ASCII art",
+    "org.opencontainers.image.documentation": "https://formulae.brew.sh/formula/cowsay",
+    "org.opencontainers.image.license": "GPL-3.0",
+    "org.opencontainers.image.ref.name": "3.04_1.arm64_monterey",
+    "org.opencontainers.image.source": "https://github.com/Homebrew/homebrew-core/blob/HEAD/Formula/cowsay.rb",
+    "org.opencontainers.image.title": "cowsay 3.04_1.arm64_monterey",
+    "org.opencontainers.image.url": "https://github.com/tnalpgge/rank-amateur-cowsay",
+    "org.opencontainers.image.vendor": "Homebrew",
+    "org.opencontainers.image.version": "3.04_1",
+    "sh.brew.bottle.digest": "8d35c9dfb46eea22b2b53c9c0deb00d7d95b6fe3fcfeb8d9404fd269d5739790",
+    "sh.brew.tab": "{\"homebrew_version\":\"3.2.17-135-g85e318d\",\"changed_files\":[\"bin/cowsay\",\"share/man/man1/cowsay.1\"],\"source_modified_time\":1466822715,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 12.0\",\"cpu_family\":\"arm_firestorm_icestorm\",\"xcode\":\"13.1\",\"clt\":\"13.1.0.0.1.1633545042\",\"preferred_perl\":\"5.30\"}}"
+  }
+}

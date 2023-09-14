@@ -9,16 +9,8 @@ class Cowsay < Formula
 
   bottle do
     root_url "https://ghcr.io/v2/justenstall/tap"
-    sha256 cellar: :any_skip_relocation, arm64_ventura:  "8d35c9dfb46eea22b2b53c9c0deb00d7d95b6fe3fcfeb8d9404fd269d5739790"
-    sha256 cellar: :any_skip_relocation, arm64_monterey: "8d35c9dfb46eea22b2b53c9c0deb00d7d95b6fe3fcfeb8d9404fd269d5739790"
-    sha256 cellar: :any_skip_relocation, arm64_big_sur:  "dc3cb88861e89bb415d3b1be1b5314514174349bb44338551e80badc4da94542"
-    sha256 cellar: :any_skip_relocation, ventura:        "23f11aa0196e2129ac8f293ac486dbc631de8a2f7786c1bb7c9d8642144f2856"
-    sha256 cellar: :any_skip_relocation, monterey:       "23f11aa0196e2129ac8f293ac486dbc631de8a2f7786c1bb7c9d8642144f2856"
-    sha256 cellar: :any_skip_relocation, big_sur:        "422c58f10fc2441a62a90864d01b83176ebda627f9a8c29b34f89f4f1f86618e"
-    sha256 cellar: :any_skip_relocation, catalina:       "c1f4af994e038a18492c8afe0f6b97cfd1c475fe62eafe68762cf5d734dc214d"
-    sha256 cellar: :any_skip_relocation, mojave:         "faebbfa7a9379fd4efddc43dc167fda055989d2936b0430e404c252a555439cc"
-    sha256 cellar: :any_skip_relocation, high_sierra:    "4cdddb22ad76cf14527347e58317caf1495dc88fdf5d6c729ac72fa2fe19dd81"
-    sha256 cellar: :any_skip_relocation, x86_64_linux:   "8d35c9dfb46eea22b2b53c9c0deb00d7d95b6fe3fcfeb8d9404fd269d5739790"
+    rebuild 1
+    sha256 cellar: :any_skip_relocation, arm64_ventura: "faf44e0437ec1a88aef1265669cadd0f26a883f6ff825d51c40e082b0af45f6f"
   end
 
   def install

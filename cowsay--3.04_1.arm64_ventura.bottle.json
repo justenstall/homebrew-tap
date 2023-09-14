@@ -1,0 +1,50 @@
+{
+  "justenstall/tap/cowsay": {
+    "formula": {
+      "name": "cowsay",
+      "pkg_version": "3.04_1",
+      "path": "Library/Taps/justenstall/homebrew-tap/cowsay.rb",
+      "tap_git_path": "cowsay.rb",
+      "tap_git_revision": "a9ebc3ac1b6eedbd90b0522ea9e1a25e22081236",
+      "tap_git_remote": "https://github.com/justenstall/homebrew-tap",
+      "desc": "Configurable talking characters in ASCII art",
+      "license": "GPL-3.0",
+      "homepage": "https://github.com/tnalpgge/rank-amateur-cowsay"
+    },
+    "bottle": {
+      "root_url": "https://ghcr.io/v2/justenstall/tap",
+      "cellar": "any_skip_relocation",
+      "rebuild": 1,
+      "date": "2023-09-14",
+      "tags": {
+        "arm64_ventura": {
+          "filename": "cowsay-3.04_1.arm64_ventura.bottle.1.tar.gz",
+          "local_filename": "cowsay--3.04_1.arm64_ventura.bottle.1.tar.gz",
+          "sha256": "c35a499cd476e523a0526a9b741a6e9d814fe65756296b36f0b51e2bb88cb645",
+          "tab": {
+            "homebrew_version": "3.6.6-34-gfaa9950",
+            "changed_files": [
+              "bin/cowsay",
+              "INSTALL_RECEIPT.json",
+              "share/man/man1/cowsay.1"
+            ],
+            "source_modified_time": 1466822715,
+            "compiler": "clang",
+            "runtime_dependencies": [
+
+            ],
+            "arch": "arm64",
+            "built_on": {
+              "os": "Macintosh",
+              "os_version": "macOS 13",
+              "cpu_family": "dunno",
+              "xcode": "14.1",
+              "clt": "14.1.0.0.1.1665256668",
+              "preferred_perl": "5.30"
+            }
+          }
+        }
+      }
+    }
+  }
+}
