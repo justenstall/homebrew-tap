@@ -3,6 +3,7 @@
 class Repopdf < Formula
   desc "Creates a PDF report of the source code in a Git repository"
   homepage "https://github.com/justenstall/repopdf"
+  version "0"
 
   url "https://github.com/justenstall/repopdf.git", using: :git, branch: "main"
 
